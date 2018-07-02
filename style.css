@@ -1,0 +1,77 @@
+.center {
+    text-align: center;
+  }
+  ul {
+      list-style:none;
+      padding: 10px;
+  }
+  img {
+      display: inline;
+      width: 200px;
+      
+  }
+  body{
+      background-image: url('Binary.jpg');
+  }
+  .imgfullstack{
+
+      float:left;
+      margin-left: 40px; 
+      height: 70px; 
+      margin-top: 20px;  
+      
+  }
+  .imggracehopper{
+    
+      float:right;
+      margin-right: 30px; 
+      height: 60px;  
+      margin-top: 20px;  
+  }
+  #footer {
+      width: 100%;
+      border-top: solid 2px black;
+      background-color: white;
+      position: fixed;
+      bottom: 0;
+      
+  }
+  #headers,guesses{
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  #menubtns
+  {
+        margin-top: 20px;
+
+  }
+  #input-parent{
+    width: 140px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #inputtext{
+      height:150px;
+      width:140px;
+    border-radius: 50%;
+    font-size: 50px;
+  }
+  #submit{
+      height:60px;
+      width:60px;
+    border-radius: 55%;
+    position: relative;
+    left:100px;
+    bottom:40px;
+  }
+  #guesses{
+    display: inline;
+    border: solid 0.5px black;
+    margin-left: 8px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight:bold;
+    }
