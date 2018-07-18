@@ -5,13 +5,17 @@
       list-style:none;
       padding: 10px;
   }
+  #title
+  {
+      font-size: 60px;
+  }
   img {
       display: inline;
       width: 200px;
       
   }
   body{
-      background-image: url('Binary.jpg');
+      background-image: url('game1.jpg');
   }
   .imgfullstack{
 
@@ -33,19 +37,30 @@
       border-top: solid 2px black;
       background-color: white;
       position: fixed;
-      bottom: 0;
-      
+      bottom: 0;      
   }
   #headers,guesses{
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   #menubtns
   {
-        margin-top: 20px;
-
+        margin-top: 30px;
   }
+  #reset{
+      font-size: 20px;
+      color: black;
+      background-color: grey;
+      border: 3px black solid;
+  }
+  #hint{
+    font-size: 20px;
+    color: black;
+    background-color: grey;
+    border: 3px black solid;
+}
   #input-parent{
+    
     width: 140px;
     border-radius: 50%;
     margin-left: auto;
@@ -53,23 +68,29 @@
   }
   #inputtext{
       height:150px;
-      width:140px;
+      width:150px;
+      border: 10px solid gray;
+      background-color: transparent;
     border-radius: 50%;
     font-size: 50px;
   }
   #submit{
       height:60px;
       width:60px;
+      font-size: 20px;
+      border: 3px solid gray;
+      background-color: black;
+      color: white;
     border-radius: 55%;
     position: relative;
     left:100px;
     bottom:40px;
   }
-  #guesses{
+  .guesses{
     display: inline;
-    border: solid 0.5px black;
-    margin-left: 8px;
-    border-radius: 5px;
+    border: solid 3px rgb(63, 63, 66);
+    margin-left: 4px;
+    border-radius: 60%;
     background-color: white;
     padding: 20px;
     font-size: 30px;
